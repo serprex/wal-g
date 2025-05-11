@@ -4,10 +4,10 @@ import (
 	"container/heap"
 	"context"
 	"fmt"
-	"github.com/wal-g/wal-g/internal/databases/mongo/common"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
+	"github.com/wal-g/wal-g/internal/databases/mongo/common"
 	"github.com/wal-g/wal-g/internal/databases/mongo/models"
 )
 

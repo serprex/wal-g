@@ -7,15 +7,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/wal-g/wal-g/internal/compression/lz4"
-	"github.com/wal-g/wal-g/internal/compression/lzma"
-	"github.com/wal-g/wal-g/internal/config"
-
-	"github.com/wal-g/wal-g/testtools"
-
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 	"github.com/wal-g/wal-g/internal"
+	"github.com/wal-g/wal-g/internal/compression/lz4"
+	"github.com/wal-g/wal-g/internal/compression/lzma"
+	"github.com/wal-g/wal-g/internal/config"
+	"github.com/wal-g/wal-g/testtools"
 )
 
 func TestGetSentinelUserData(t *testing.T) {

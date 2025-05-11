@@ -7,13 +7,12 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/golang/mock/gomock"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/wal-g/wal-g/internal"
 	conf "github.com/wal-g/wal-g/internal/config"
 	"github.com/wal-g/wal-g/pkg/storages/memory"
-
-	"github.com/golang/mock/gomock"
 	"github.com/wal-g/wal-g/test/mocks"
 )
 
